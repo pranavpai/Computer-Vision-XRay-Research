@@ -40,7 +40,7 @@ This project addresses the critical challenge of automated threat detection in X
 - **Test Images**: 836 validation images
 - **Object Classes**: 5 threat categories (gun, knife, plier, scissor, wrench)
 - **Total Annotations**: 18,828 bounding box annotations
-- **Resolution**: Standardized to 584×688 pixels
+- **Resolution**: Variable dimensions (preprocessing available for standardization)
 
 ### Performance Metrics (20-Fold Cross-Validation)
 
@@ -103,7 +103,11 @@ pip install -r requirements.txt
 │   ├── Faster_R-CNN.pdf
 │   ├── STN-CNN.pdf
 │   ├── RFB.pdf
-│   └── Survey_on_Image_Augments.pdf
+│   ├── Survey_on_Image_Augments.pdf
+│   ├── Image_Augmentation_Future_Direction.pdf
+│   ├── STN YOLO object Detection.pdf
+│   ├── STN-SNN-Application.pdf
+│   └── biyoistatistik15-1-3.pdf
 ├── 📄 requirements.txt               # Python dependencies
 ├── 📄 README.md                      # Project documentation
 └── 📄 Readme.txt                     # Quick reference guide
@@ -144,6 +148,10 @@ This project builds upon cutting-edge research in computer vision and security A
 - Spatial Transformer Networks for geometric invariance
 - Receptive Field Block Networks for efficient detection
 - Advanced augmentation techniques for X-ray domain adaptation
+- STN integration with YOLO for enhanced object detection
+- STN applications in specialized neural networks
+- Future directions in image augmentation research
+- Statistical approaches to biomedical imaging
 
 ## 🤝 Contributing
 
